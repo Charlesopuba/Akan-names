@@ -3,7 +3,7 @@ var names = function(a,b,c,d){
     var malenames = ['Kwasi','Kudwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
     var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 }
-var d = new Date(y, --m, d);
+var d = new Date(a, --c, d);
 if (g === "Female") {
     return d && femaleNames[d.getDay()];
 } else {
