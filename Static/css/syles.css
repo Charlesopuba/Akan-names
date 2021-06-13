@@ -7,21 +7,28 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
-.header{
+header{
     color: green;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
-.header p{
+.container{
+    text-align: center;
+    font-weight: bold;
+}
+.container p{
     justify-content: center;
     color:green;
     font-weight: 900;
     font-size: 18px;
 }
+.container h2{
+    color:red;
+}
 
 form {
-    text-align: left;
+    text-align: center;
     border-radius: 10px;
     padding: 20px;
     color: red;
