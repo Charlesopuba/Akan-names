@@ -28,6 +28,9 @@ form {
     font-weight: bold;
     font-size: 20px;
 }
+legend{
+    text-align: center;
+}
 
 input[type=number],
 [type="radio"] {
@@ -52,5 +55,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.356);
 }
