@@ -5,9 +5,9 @@ var names = function(a,b,c,d){
 }
 var d = new Date(a, --c, d);
 if (g === "Female") {
-    return d && femaleNames[d.getDay()];
-} else {
     return d && maleNames[d.getDay()];
+} else {
+    return d && femaleNames[d.getDay()];
 }
 
 
@@ -15,10 +15,10 @@ if (g === "Female") {
 $(document).ready(function() {
 $("form#form").submit(function(event) {
     event.preventDefault();
-    var y = parseInt($("#year").val());
-    var m = parseInt($("#month").val());
-    var d = parseInt($("#date").val());
-    var g = $("input:radio[name=gender]:checked").val();
+    var a = parseInt($("#year").val());
+    var b = parseInt($("#month").val());
+    var c = parseInt($("#date").val());
+    var d = $("input:radio[name=gender]:checked").val();
     var result = akan(a, b, c, d);
     alert("Your akan name is: " + result);
     //refresh page
