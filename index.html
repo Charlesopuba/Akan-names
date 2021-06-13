@@ -12,6 +12,7 @@
     <div class="content">
         <div class="container">
           <h1> Akan tribe names</h1>
+          <hr>
           <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. <br>Akan names are derived from Ghanian culture, frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born, for example if a male child is born on Sunday the name assigned to the baby will be Kwasi,if its female the name will be Akosua  </p>
           <h2>You can find out your Akan name by filling in this form:</h2>
           <form class="myform" onsubmit="return getAkanName()">
@@ -25,7 +26,7 @@
             </label>
             <label for="day-of-birth">
               Day:
-              <input id="day-input" type="number" name="day-of-birth" placeholder="eg 06" value="" required min="1" max="31">
+              <input id="day-input" type="number" name="day-of-birth" placeholder="eg 06th" value="" required min="1" max="31">
             </label>
             <br>
             <label for="gender">
@@ -43,8 +44,6 @@
           <form onsubmit="return CLEAR()">
             <input class="clear" type="submit" value="Clear input">
           </form>
-  
-  
           <h4 id = display-name><strong>SHOW AKAN NAME:</strong></h4>
           <p id="result"></p>
         </div>
