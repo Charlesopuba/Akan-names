@@ -15,7 +15,11 @@
 
    - A user should enter his/her birthday through a form
    - Choose what gender I am
-   -Click the submit button to see what my Akan name would be
+   - See the Akan name depending on the birthday
+          
+
+
+   
 ## You can view the live link at[              ]
     
 
