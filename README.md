@@ -6,7 +6,10 @@
 ## Author
 - (Charles Opuba)
 ## Setup instructions - includes any scripts that need to be run if necessary.
-- 
+- Open your terminal
+- Use this command to clone `$ git clone[https://charlesopuba.github.io/Akan-names/]
+- This will clone the repositoty into your local folder
+- You are now free to proceed
 ## BDD.
 -  The application should check whether the date and month entered is valid. if either of them is invalid,  the user should be alerted and asked to enter a valid one. For example:
         An invalid day should be (d<=0) or (d>31)
@@ -20,7 +23,7 @@
 
 
    
-## You can view the live link at[              ]
+## You can view the live link at[https://charlesopuba.github.io/Akan-names/]
     
 
 ## Technologies used.
