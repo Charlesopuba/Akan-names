@@ -10,7 +10,7 @@
 ## BDD.
 -  
 ## Technologies used.
-- Html,CSS,Javascipt,Git and Bootsrap
+- Html,CSS,Javascipt,Git,Markdown and Bootsrap
 ## Contact information
 -charlesopuba@gmail.com
 ## License and Copyright information.

@@ -1,28 +1,24 @@
 //This part you enables the whole magic to happen//
-var names = function(a,b,c,d){
-    var malenames = ['Kwasi','Kudwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
-    var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-}
-var d = new Date(a, --c, d);
-if (g === "Female") {
-    return d && maleNames[d.getDay()];
-} else {
-    return d && femaleNames[d.getDay()];
-}
-
-
-// User interface (or front-end) logic:
-$(document).ready(function() {
-$("form#form").submit(function(event) {
-    event.preventDefault();
-    var a = parseInt($("#year").val());
-    var b = parseInt($("#month").val());
-    var c = parseInt($("#date").val());
-    var d = $("input:radio[name=gender]:checked").val();
-    var result = akan(a, b, c, d);
-    alert("Your akan name is: " + result);
-    //refresh page
-    document.getElementById("form").reset();
-});
-});
-
+function myFunction() {
+    function day(cc, yy, mm, dd) {
+      return ((((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7) + 1
+    }
+    var cc = parseInt(prompt("Enter the century"));
+    var yy = parseInt(prompt("Enter the year"));
+    var mm = parseInt(prompt("Enter the month"));
+    var dd = parseInt(prompt("Enter the date of birth"));
+    var gender = prompt("your gender")
+    var result = (day(cc, yy, mm, dd).toFixed()) - 4;
+    /* alert(result);  */
+    var malesAkan = ["Kwasi", "kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var femalesAkan = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+    var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+    if (gender == "male") {
+      alert("Your akan name is " + malesAkan[result]+" you were born on a "+ days[result]);
+  
+    } else if (gender == "female") {
+      alert("Your akan name is " + femalesAkan[result]+" you were born on a "+days[result]);
+    } else {
+      alert("null");
+    }
+  }
