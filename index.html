@@ -16,6 +16,40 @@
                 </p>
             </div>
         </div>
+        <div class="col-md-8">
+            <form id="form" name="form" onsubmit="findDay()">
+                <legend>Fill the form to generate your Akan name depending on your birthday:
+                    <hr>
+                </legend>
+                <label for="year ">Year of birth</label>
+                <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Example: 1990">
+
+                <label for="month ">Month</label>
+                <input type="number" id="month" name="month" min="1" max="12" required placeholder="Example: December=12, May=5">
+
+                <label for="date ">Date</label>
+                <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 21 ">
+
+                <p>Select your gender: <br></p>
+                <div class="radio">
+                    <label>
+                      <input type="radio" name="gender" value="male" checked>
+                      Male
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                      <input type="radio" name="gender" value="female">
+                      Female
+                </label>
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+</div>
         
 
 </body>
